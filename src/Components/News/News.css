@@ -1,0 +1,81 @@
+.news-container{
+
+}
+.news-bar{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;  
+    transition: .4s ease;  
+}
+.news-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid var(--border-color);
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: var(--text-color);
+    border-radius: 20px;
+}
+.news-card:hover{
+    background-color: aqua;
+    color: white;
+    gap: 2rem;
+}
+.news-card img{
+    width: 80%;
+    float: left;
+    padding: 20px;
+}
+.news-container .text{
+    text-align: center;
+}
+.news-container .text h1{
+    font-size: 20px;
+}
+/* logo */
+
+.c-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.c-contant{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-left: 34rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+    border: 1px solid rgba(0,0,0,0.03);
+}
+.c-contant:hover{
+
+}
+.c-contant > img {
+    /* width: 9rem; */
+    /* height: 35px; */
+    width: 70%;
+    object-fit: contain;
+    object-position: center;
+    transition: all ease 0.1s;
+    padding-left: 8rem;
+}
+.date_span{
+    width: 4rem;
+    height: 4rem;
+    background: black;
+    color: aliceblue;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 14.3rem;   
+
+}
+

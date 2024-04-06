@@ -1,0 +1,121 @@
+.welcome_container{
+display: flex;
+}
+.welcome_contain{
+    display: grid;
+    grid-template-columns: auto auto;
+    float: left;
+}
+.welcome_right img{
+    width: 80%;
+   
+}
+.welcome_text{
+   align-items: center;
+   justify-content: center;
+   text-align: justify;
+   text-justify: inter-word;
+   padding: 30px;
+}
+.welcome_text h1{
+    position: absolute;
+    font-size: 50px;
+}
+.welcome_text h1 span{
+    color: rgb(233, 181, 39);
+}
+.paragrph{
+    padding-top: 10rem;
+}
+.more-btn{
+    /* margin-top: 30px ;
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    color: blue;
+    background-color: rgb(184, 175, 175); */
+    
+  background:  rgb(184, 175, 175);
+  border: 0;
+  border-radius: 12px;
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.more-btn:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.more-btn:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.shape-span{
+    position: absolute;
+    width: 5rem;
+	height: 8rem;
+	transform: skew(20deg);
+	background: hsl(0, 21%, 93%);
+    rotate: 18deg;
+    
+}
+/* right */
+.first_img{
+    float: inline-end;
+}
+.second_img{
+    position: relative;
+    bottom:7rem;
+    left: 2rem;
+}
+.span_one{
+    position: absolute;
+    width: 8rem;
+	height: 4rem;
+	transform: skew(20deg);
+	background: #055005; 
+    rotate: 90deg;
+    left: -1rem;
+}
+.span_two{
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 55px solid transparent;
+	border-left: 50px solid #ec7835;
+	border-bottom: 5px solid transparent;
+    left: 1rem;
+    top: 83rem;
+}
+.span_three{
+    height: 80px;
+    width: 150px;
+    background-color: #eb5c0a;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+}
+.span_four{
+    width: 0;
+	height: 0;
+	border-top: -25px solid transparent;
+	border-right: 50px solid #eb5c0a;
+	border-bottom: 55px solid transparent;
+    position: absolute;
+    left: 30rem;
+    
+}
