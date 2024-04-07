@@ -1,10 +1,10 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import "./Navbar.css"
 import cago from "../../Assets/Navbar/cago-img.jpg"
+import { FaBars } from "react-icons/fa";
 
 
 function Navbar() {
- 
   return (
     <div className='content'>
       <div className='container'>
@@ -22,7 +22,7 @@ function Navbar() {
         <li> <button className='btn1'>GET A OUOTE</button></li>
         <li> <button className='btn2'>SIGN IN</button></li>
     </ul>
-   
+      <div className='menu-icon'><FaBars /></div>
     </nav>
     
    </div>

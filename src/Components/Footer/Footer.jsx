@@ -24,54 +24,34 @@ function Footer() {
         <h4>About us</h4>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         
-        <span><FaPhone />
-        <p>+848727854</p>
-         </span>
         
+        <p><span><FaPhone /> | </span>+848727854</p>
         
-         <span><FaLocationDot />
-        <p>92 lane colombo4</p>
-         </span>
-         
-        
+        <p><span><FaLocationDot /> | </span>92 lane colombo4</p>
       </div>
      
       <div className='footer-link-div'>
         <h4>Latest News</h4>
-        <span><IoMdArrowDropright />
-         <p>Obcaecati enim harum pariatur eos error blanditiis voluptates ea ab. </p>
-        </span>
-        <span><IoMdArrowDropright />
-         <p>Obcaecati enim harum pariatur eos error blanditiis voluptates ea ab. </p>
-        </span>
+         <p><span><IoMdArrowDropright /></span>Obcaecati enim harum pariatur eos error blanditiis voluptates ea ab. </p>
+       
+         <p><span><IoMdArrowDropright /></span>Obcaecati enim harum pariatur eos error blanditiis voluptates ea ab. </p>
       </div>
 
       <div className='footer-link-div'>
         <h4>Customer Service</h4>
-        <span>
-        <FaHandPointRight />
-         <p>Support Forums</p>
-        </span>
-        <span>
-        <FaHandPointRight />
-         <p>Communication</p>
-        </span>
-        <span>
-        <FaHandPointRight />
-         <p>FAQS</p>
-        </span>
-        <span>
-        <FaHandPointRight />
-         <p>Privancy Policy</p>
-        </span>
-        <span>
-        <FaHandPointRight />
-         <p>Rules & Condition</p>
-        </span>
-        <span>
-        <FaHandPointRight />
-         <p>Contact us</p>
-        </span>
+        
+         <p><span> <FaHandPointRight />  </span>Support Forums</p>
+     
+         <p> <span><FaHandPointRight />  </span>Communication</p>
+ 
+         <p><span> <FaHandPointRight />  </span>FAQS</p>
+       
+         <p><span><FaHandPointRight />  </span>Privancy Policy</p>
+      
+         <p><span><FaHandPointRight />  </span>Rules & Condition</p>
+
+         <p><span> <FaHandPointRight />  </span>Contact us</p>
+       
       </div>
 
       <div className='footer-link-div'>
