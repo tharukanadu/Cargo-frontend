@@ -24,7 +24,7 @@ function News() {
 
        <div className='text'>
                     <h1>LATEST NEWS</h1>
-                    <p>INTEGER CONGUE ELIT</p>
+                    <p>INTEGER CONGUE ELIT</p><br /><br />
                   </div>
                   <div className='news-bar'>
                   

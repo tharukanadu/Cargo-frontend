@@ -163,7 +163,7 @@ padding: 10px 20px;
 .title-box{
     cursor: pointer;
 }
-span{
+.title-box span{
     position: relative;
     left: 28rem;
     bottom: 1rem;
