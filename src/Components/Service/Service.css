@@ -137,58 +137,34 @@
 }
 
 /* right */
-.wrapTopic{
-    max-width: 450px;
-    overflow: hidden;
-    font-weight: 500;
-    background-color: red;
+.wrapper-box{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+   
 }
-.wrapTopic label{
-    position: relative;
-    font-weight: 600;
-    display: block;
-    margin-bottom: 10px;
+.accordion{
+    width: 500px;
+}
+.item-box{
+margin-bottom: 5px;
+padding: 10px 20px;
+}
+.content-box{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content-box-show{
+    height: auto;
+    max-height: 999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+.title-box{
     cursor: pointer;
-    padding: 15px;
-    z-index: 1;
 }
-.wrapTopic input{
-    display: none;
-}
-.wrapTopic label::after{
-    content: "";
-    position: absolute;
-    right: 15px;
-    top: 20px;
-    width: 18px;
-    height: 18px;
-    background-color: yellow;
-    transition: all 0.3s ease;
-}
-.right-content{
-    max-height: 1px;
-    overflow: hidden;
-    border-radius: 4px;
-    line-height: 1.4;
+span{
     position: relative;
-    top: -100%;
-    opacity: 0.5;
-    transition: all 0.3s ease;
-}
-.wrapTopic input:checked ~ .right-content{
-    max-height: 300px;
-    padding-bottom: 25px;
-    background: blue;
-
-}
-.wrapTopic input:checked + label:after{
-    transform: rotate(90deg);
-}
-.right-content h2{
-    margin-bottom: 10px;padding: 15px 15px 0;
-    
-}
-.right-content p{
-    padding-left: 15px;
-    padding-right: 15px;
+    left: 28rem;
+    bottom: 1rem;
 }

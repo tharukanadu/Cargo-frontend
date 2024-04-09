@@ -6,10 +6,13 @@ import Navbar from './Components/Navbar/Navbar';
 import News from './Components/News/News';
 import Service from './Components/Service/Service';
 import Welcome from './Components/WelcomePage/Welcome';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="App">
+     
      <Navbar/>
      <Header/>
      <Welcome/>
@@ -19,6 +22,7 @@ function App() {
      <News/>
      <Blog/>
      <Footer/>
+   
     </div>
   );
 }

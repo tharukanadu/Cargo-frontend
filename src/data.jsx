@@ -59,3 +59,25 @@ export const services=[
         }
 ]
 
+export const box_data=[
+    {
+        question:"Corporis vel quae vero cum",
+        answer:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vero exercitationem incidunt dolorum, inventore consequatur. Corporis vel quae vero cum earum nisi quod, ipsum odio totam. Numquam aut fuga unde"
+    },
+    {
+        question:"amet consectetur adipisicing elit",
+        answer:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vero exercitationem incidunt dolorum, inventore consequatur. Corporis vel quae vero cum earum nisi quod, ipsum odio totam. Numquam aut fuga unde"
+    },
+    {
+        question:"Corporis vel quae vero cum",
+        answer:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vero exercitationem incidunt dolorum, inventore consequatur. Corporis vel quae vero cum earum nisi quod, ipsum odio totam. Numquam aut fuga unde"
+    },
+    {
+        question:"amet consectetur adipisicing elit",
+        answer:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vero exercitationem incidunt dolorum, inventore consequatur. Corporis vel quae vero cum earum nisi quod, ipsum odio totam. Numquam aut fuga unde"
+    },
+    {
+        question:"Numquam aut fuga unde.",
+        answer:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam vero exercitationem incidunt dolorum, inventore consequatur. Corporis vel quae vero cum earum nisi quod, ipsum odio totam. Numquam aut fuga unde"
+    },
+]

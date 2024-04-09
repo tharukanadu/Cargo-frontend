@@ -18,7 +18,16 @@ import { FaHandPointRight } from "react-icons/fa";
 function Footer() {
   return (
     <div className='footer'>
+      <div className="footer-topic">
+        <h2>Weekly newslater</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>
+      <div className="search-bar">
+          <input type="text" className="text-input" placeholder='Enter your mail' />
+          <button className='btn-submit'>Submit</button>
+        </div>
      <div className='footer_section'>
+     
       <div className='footer-link'>
          <div className='footer-link-div'>
         <h4>About us</h4>

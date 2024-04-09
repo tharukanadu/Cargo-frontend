@@ -1,10 +1,21 @@
 import React from 'react'
 import "./Service.css"
-import {services} from "../../data"
+import {services,box_data} from "../../data"
 import { FaPlus } from "react-icons/fa";
+import { useState } from 'react';
+import { FaMinus } from "react-icons/fa6";
+
 
 
 function Service() {
+  const [selected,setSelected]= useState(null);
+
+  const toggle = (i)=>{
+    if(selected == i){
+      return setSelected(null)
+    }
+    setSelected(i);
+  }
   return (
     <div className='service-container'>
       <div className='service-topic'>
@@ -86,45 +97,23 @@ format_quote
         <div className='right_us'>
           <h2>WHY CHOOSE US</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          <div className="wrapTopic">
-            <input type="checkbox" id="collapsible-head"/>
-            <label>use html css now </label>
+        <div className='wrapper-box'>
+        <div className='accordion'>
+        {box_data.map((item,i)=>(
+          <div className="item-box" onClick={()=> toggle(i)}>
+            <div className="title-box">
+              <h2>{item.question}</h2>
+              <span>{selected === i ? <FaMinus/> : <FaPlus/>}</span>
+            </div>
+            
           
-          <div className='right-content'>
-              <h2>aaaaaaaaaaaaaaaa</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem aliquid omnis doloremque, nisi, molestias aperiam consequatur est sapiente asperiores vel beatae? Molestiae sit dolore debitis possimus eos exercitationem quidem.</p>
+            <div className={selected === i ? 'content-box-show' : 'content-box'}>{item.answer}</div>
           </div>
-          </div>
+        
 
-          <div className="wrapTopic">
-            <input type="checkbox" id="collapsible-head"/>
-            <label>use html css now</label>
-          
-          <div className='right-content'>
-              <h2>aaaaaaaaaaaaaaaa</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem aliquid omnis doloremque, nisi, molestias aperiam consequatur est sapiente asperiores vel beatae? Molestiae sit dolore debitis possimus eos exercitationem quidem.</p>
-          </div>
-          </div>
-
-          <div className="wrapTopic">
-            <input type="checkbox" id="collapsible-head"/>
-            <label>use html css now</label>
-          
-          <div className='right-content'>
-              <h2>aaaaaaaaaaaaaaaa</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem aliquid omnis doloremque, nisi, molestias aperiam consequatur est sapiente asperiores vel beatae? Molestiae sit dolore debitis possimus eos exercitationem quidem.</p>
-          </div>
-          </div>
-
-          <div className="wrapTopic">
-            <input type="checkbox" id="collapsible-head"/>
-            <label>use html css now</label>
-          
-          <div className='right-content'>
-              <h2>aaaaaaaaaaaaaaaa</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi rem aliquid omnis doloremque, nisi, molestias aperiam consequatur est sapiente asperiores vel beatae? Molestiae sit dolore debitis possimus eos exercitationem quidem.</p>
-          </div>
-          </div>
+        ))}
+        </div>
+        </div>
 
         </div>
         </div>
