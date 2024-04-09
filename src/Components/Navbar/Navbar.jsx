@@ -16,10 +16,10 @@ function Navbar() {
     
     <ul>
 
-        <li>HOME<i class="fa fa-caret-down" aria-hidden="true"></i> </li>
+        <li><a href="">HOME <i class="fa fa-caret-down" aria-hidden="true"></i> </a> </li>
         
-        <li>PAGE <i class="fa fa-caret-down" aria-hidden="true"></i></li>
-        <li>TRACKING <i class="fa fa-caret-down" aria-hidden="true"></i></li>
+        <li><a href="">PAGE <i class="fa fa-caret-down" aria-hidden="true"></i></a> </li>
+        <li><a href="">TRACKING <i class="fa fa-caret-down" aria-hidden="true"></i></a> </li>
         <li><a href="">SERVICES </a></li>
         <li><a href="">BLOG <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
         <li> <button className='btn1'>GET A OUOTE</button></li>
